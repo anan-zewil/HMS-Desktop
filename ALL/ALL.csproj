@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Back.jpg" />
+    <None Remove="Bill.jpg" />
+    <None Remove="ContactUsLocation.jpg" />
+    <None Remove="ContactUsMail.jpg" />
+    <None Remove="ContactUsPhone.jpg" />
+    <None Remove="CustomerPanel.jpg" />
+    <None Remove="IntroPage.jpg" />
+    <None Remove="LoginSignup.jpg" />
+    <None Remove="PaymentCard.jpg" />
+    <None Remove="paymethos.jpg" />
+    <None Remove="ProfileUser.jpg" />
+    <None Remove="Room1.jpg" />
+    <None Remove="Room2.jpg" />
+    <None Remove="Room3.jpg" />
+    <None Remove="Room4.jpg" />
+    <None Remove="Room5.jpg" />
+    <None Remove="Room6.jpg" />
+    <None Remove="Room7.jpg" />
+    <None Remove="Room8.jpg" />
+    <None Remove="Search.jpg" />
+    <None Remove="signuplogin.jpg" />
+    <None Remove="usernamelogin.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Back.jpg" />
+    <Resource Include="Bill.jpg" />
+    <Resource Include="ContactUsLocation.jpg" />
+    <Resource Include="ContactUsMail.jpg" />
+    <Resource Include="ContactUsPhone.jpg" />
+    <Resource Include="CustomerPanel.jpg" />
+    <Resource Include="IntroPage.jpg" />
+    <Resource Include="LoginSignup.jpg" />
+    <Resource Include="PaymentCard.jpg" />
+    <Resource Include="paymethos.jpg" />
+    <Resource Include="ProfileUser.jpg" />
+    <Resource Include="Room1.jpg" />
+    <Resource Include="Room2.jpg" />
+    <Resource Include="Room3.jpg" />
+    <Resource Include="Room4.jpg" />
+    <Resource Include="Room5.jpg" />
+    <Resource Include="Room6.jpg" />
+    <Resource Include="Room7.jpg" />
+    <Resource Include="Room8.jpg" />
+    <Resource Include="Search.jpg" />
+    <Resource Include="signuplogin.jpg" />
+    <Resource Include="usernamelogin.jpg" />
+  </ItemGroup>
+
+</Project>

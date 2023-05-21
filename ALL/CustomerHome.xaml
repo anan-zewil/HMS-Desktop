@@ -1,0 +1,165 @@
+﻿<Window x:Class="ALL.CustomerHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALL"
+        mc:Ignorable="d"
+        Title="CustomerHome" Height="800" Width="900">
+    <Grid Background="#FF0C0B0B">
+        <WrapPanel HorizontalAlignment="Center" Height="177" VerticalAlignment="Top" Width="900" Margin="0,31,0,0">
+            <WrapPanel.Background>
+                <ImageBrush ImageSource="/CustomerPanel.jpg" Stretch="Fill"/>
+            </WrapPanel.Background>
+        </WrapPanel>
+        <Button Margin="130,436,574,210" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room4.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="572,275,132,371" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room3.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="352,275,352,371" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room2.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="130,274,574,371" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room1.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <WrapPanel HorizontalAlignment="Center" Height="177" Margin="0,31,0,0" VerticalAlignment="Top" Width="901" Background="Black" Opacity="0.5"/>
+        <Label Content="Find The Best Place" HorizontalAlignment="Left" Margin="313,116,0,0" VerticalAlignment="Top" Height="69" Width="305" FontSize="40" FontFamily="Rage Italic" Foreground="#FFFDFAF9" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.11"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="DISCOVER OUR ROOMS" HorizontalAlignment="Left" Height="32" Margin="334,227,0,0" VerticalAlignment="Top" Width="261" Background="Transparent" Foreground="#FFF7F4F4" FontSize="18" FontFamily="Felix Titling"/>
+        <Label Content="To Enjoy Your Time" HorizontalAlignment="Left" Margin="412,152,0,0" VerticalAlignment="Top" Height="69" Width="305" FontSize="22" FontFamily="Rage Italic" Foreground="#FFFDFAF9" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.11"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Margin="595,43,201,689" Opacity="0.8" Content="     Profile" FontSize="20" Height="NaN" Background="#00000000" Foreground="#FFFDFCFC" Width="NaN" FontFamily="Centaur" Click="profile_Click" BorderBrush="Transparent" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="699,43,70,689" Opacity="0.8" Content="Contact Us" FontSize="20" Height="NaN" Background="#00000000" Foreground="#FFFDFCFC" Width="NaN" FontFamily="Centaur" Click="contact_us_click" BorderBrush="Transparent" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="join_us" Margin="804,43,-64,689" Opacity="0.8" Content="Join Us" FontSize="20" Height="NaN" Background="#00000000" Foreground="#FFFDFCFC" Width="NaN" FontFamily="Centaur" Click="join_us_Click" BorderBrush="Transparent" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="572,435,132,210" Content="" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Button_Click_00">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room6.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="352,435,352,211" Content="" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Room5_Click" RenderTransformOrigin="0.33,0.788">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room5.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="228,593,476,53" Content="" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Room7_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room7.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="451,593,253,53" Content="" FontSize="20" Height="NaN" Foreground="#FFFDFCFC" Width="NaN" Click="Room_Click8">
+            <Button.Background>
+                <ImageBrush ImageSource="/Room8.jpg"/>
+            </Button.Background>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+
+
+
+
+</Window>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="ALL.AddNewEmp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALL"
+        mc:Ignorable="d"
+        Title="AddNewEmp" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="/LoginSignup.jpg"/>
+    </Window.Background>
+    <Grid Margin="-23,0,0,-16">
+        <Grid.Background>
+            <ImageBrush ImageSource="/LoginSignup.jpg"/>
+        </Grid.Background>
+        <Label Content="ADD NEW EMPLOYEES" HorizontalAlignment="Left" Height="44" Margin="215,65,0,0" VerticalAlignment="Top" Width="377" FontSize="30" Background="Transparent" Foreground="White" FontFamily="Bell MT" FontWeight="Bold"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="37" Margin="202,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFC8C6C6" Opacity="0.6" FontWeight="Bold" FontSize="14"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Height="37" Margin="98,335,0,0" VerticalAlignment="Top" Width="111" FontSize="20" FontFamily="Bell MT" Foreground="#FFFDFCFC"/>
+        <Button Margin="558,337,104,64" Background="#FFCCCBCB" Content="      Accept" FontSize="22" Width="NaN" Height="NaN" Opacity="0.5" FontFamily="Rockwell" Click="Button_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <DataGrid x:Name="emplist" HorizontalAlignment="Left" Height="200" Margin="98,114,0,0" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=5}" Width="611" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button Margin="-18,0,682,398" Opacity="0.8" Content="         Back" FontSize="23" Height="NaN" Background="#00000000" Foreground="#FFFDFCFC" Width="NaN" FontFamily="Centaur" Click="Back_Click" BorderBrush="Transparent" Cursor="Hand">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Window>

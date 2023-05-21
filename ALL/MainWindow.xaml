@@ -1,0 +1,50 @@
+﻿<Window x:Class="ALL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="139*"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Center" Height="837" VerticalAlignment="Top" Width="801" Source="/IntroPage.jpg" Grid.RowSpan="2"/>
+        <WrapPanel HorizontalAlignment="Center" Height="533" VerticalAlignment="Top" Width="800" Opacity="0.6" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Margin="0,-60,0,0" Background="Black">
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.113"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+        </WrapPanel>
+        <Label Content="Take a Break , Spend Quality Holidays" HorizontalAlignment="Left" VerticalAlignment="Top" Height="67" Width="442" FontSize="24" Foreground="#FFEDF4F2" Margin="0,150,0,0"/>
+        <Label Content="Try our excellent affordable rates and dive in most relaxing ways of comfort" HorizontalAlignment="Left" VerticalAlignment="Top" Height="37" Width="486" Foreground="#FFF7F3F3" Margin="10,180,0,0"/>
+        <Label Content="AKRAMAN" HorizontalAlignment="Left" Margin="0,87,0,0" VerticalAlignment="Top" Height="70" Width="426" FontSize="66" Foreground="#FFBF9E6D" FontFamily="Baskerville Old Face"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="885,215,0,0" VerticalAlignment="Top"/>
+        <Button Margin="44,215,632,149" Opacity="0.7" Content="     Login" FontSize="20" Background="#FF504024" Foreground="#FFFDFCFC" Click="Button_Click_1" BorderThickness="0">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Margin="193,215,486,149" Opacity="0.7" Content="    Signup" FontSize="20" Background="#FF504024" Foreground="#FFFDFCFC" Click="Button_Click_2" BorderThickness="0">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+
+    </Grid>
+</Window>

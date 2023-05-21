@@ -1,0 +1,39 @@
+﻿<Window x:Class="ALL.RemoveEmpAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALL"
+        mc:Ignorable="d"
+        Title="RemoveEmpAdmin" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/LoginSignup.jpg"/>
+        </Grid.Background>
+        <Label Content="REMOVE  EMPLOYEE" HorizontalAlignment="Left" Height="44" Margin="230,65,0,0" VerticalAlignment="Top" Width="377" FontSize="30" Background="Transparent" Foreground="White" FontFamily="Bell MT" FontWeight="Bold"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="37" Margin="202,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFC8C6C6" Opacity="0.5"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Height="37" Margin="98,335,0,0" VerticalAlignment="Top" Width="111" FontSize="20" FontFamily="Bell MT" Foreground="#FFFDFCFC"/>
+        <Button Margin="558,337,104,39" Background="#FFCCCBCB" Content="     Remove" FontSize="22" Width="NaN" Height="NaN" Opacity="0.5" FontFamily="Rockwell" Click="Button_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <DataGrid x:Name="emplist" HorizontalAlignment="Left" Height="200" Margin="98,114,0,0" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=5}" Width="611" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button x:Name="back" Margin="10,10,655,371" Background="{x:Null}" Content="Back" FontSize="22" Width="NaN" Height="NaN" FontFamily="Rockwell" BorderBrush="{x:Null}" Foreground="#FFF7F6F6" Click="back_click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+        
+        
+    </Grid>
+</Window>

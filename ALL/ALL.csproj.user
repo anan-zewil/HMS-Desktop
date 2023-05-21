@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddNewEmp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddNewRoom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bill.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Chat.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ContactUs.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ContactUsEmp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmployeeHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="joinus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Payment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Profile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RemoveEmpAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room6.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room7.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Room8.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUpxaml.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddNewEmp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddNewRoom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bill.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Chat.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ContactUs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ContactUsEmp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmployeeHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="joinus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Payment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RemoveEmpAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Room8.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SignUpxaml.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
